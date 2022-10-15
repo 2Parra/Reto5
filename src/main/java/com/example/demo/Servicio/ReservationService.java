@@ -95,7 +95,7 @@ public class ReservationService {
            Date b = new Date();
            
            try{
-               a = parser.parse(datoA);
+               a= parser.parse(datoA);
                b=parser.parse(datoB);
            }catch(ParseException e){
             e.printStackTrace();
